@@ -128,7 +128,7 @@ df = pd.DataFrame({
 })
 
         
-df.to_csv(('keep_looking_for_jobs.csv'), index=False)
+df.to_csv(('output.csv'), index=False)
 
 '''   
 #Additional feature using BeautifulSoup for job description
